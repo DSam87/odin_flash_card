@@ -1,0 +1,29 @@
+.card {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+
+  background-color: blanchedalmond;
+  width: 30%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blackBack {
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.322);
+  height: 100vh;
+  width: 100vw;
+}
+
+.button {
+  width: 80%;
+  margin: 10px;
+  padding: 20px;
+}

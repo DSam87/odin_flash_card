@@ -1,0 +1,10 @@
+.Card {
+  background-color: rgba(41, 100, 128, 0.507);
+  width: 80%;
+  height: 500px;
+  margin: auto;
+}
+
+.Card {
+  cursor: pointer;
+}

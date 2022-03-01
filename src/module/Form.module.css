@@ -1,0 +1,36 @@
+.formContainer {
+  width: 100%;
+  padding: 10px;
+}
+
+form label {
+  display: block;
+  font-size: 36px;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+
+form input {
+  display: block;
+  font-size: 24px;
+  padding: 5px 0px;
+  text-align: center;
+  margin: 10px auto;
+  width: 100%;
+}
+
+form textarea {
+  display: block;
+  font-size: 24px;
+  padding: 5px 0px;
+  margin: 10px auto;
+  width: 100%;
+}
+
+.submitInput {
+  margin-top: 20px;
+  display: block;
+  justify-content: center;
+  width: 100%;
+}

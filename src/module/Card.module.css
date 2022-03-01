@@ -1,0 +1,28 @@
+.card {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: seashell;
+  margin: 10px;
+  text-align: center;
+  width: 90%;
+  height: 90%;
+}
+
+.options {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 10px 10px;
+  font-size: 24px;
+  line-height: 5px;
+}
+
+.options:hover {
+  background-color: rgba(0, 0, 0, 0.192);
+}
+
+.text {
+  padding: 1px;
+}
